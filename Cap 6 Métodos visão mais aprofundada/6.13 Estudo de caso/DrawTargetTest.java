@@ -1,5 +1,7 @@
 // Aplicativo para teste da classe DrawTarget
 // Intenção é criar uma imagem de um alvo com cores aleatórias em cada execução
+import java.util.Random;
+
 import javax.swing.JFrame;
 
 public class DrawTargetTest {

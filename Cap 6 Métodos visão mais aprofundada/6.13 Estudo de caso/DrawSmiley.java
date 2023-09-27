@@ -1,5 +1,6 @@
 // Figura 6.16: DrawSmiley.java
 // Demonstra formas preenchidas
+
 import java.awt.Color;
 import java.awt.Graphics;
 import javax.swing.JPanel;
@@ -7,7 +8,7 @@ import javax.swing.JPanel;
 public class DrawSmiley extends JPanel{
     public void paintComponent( Graphics g ){
         super.paintComponent(g);
-
+        
         // desenha o rosto
         g.setColor(Color.YELLOW);
         g.fillOval(10, 10, 200, 200);
