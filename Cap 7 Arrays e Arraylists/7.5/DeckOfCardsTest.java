@@ -20,7 +20,7 @@ public class DeckOfCardsTest {
         myDeckOfCards.shuffle(); // coloca Cards em ordem aleatória
 
         // imprime todas as 52 cartas na ordem em que são distribuidas
-        for ( int i = 0 ; i <= 52 ; i++){
+        for ( int i = 1 ; i <= 52 ; i++){
             // distribui e exibe uma card
             System.out.printf("%-19s", myDeckOfCards.dealCard());
         
